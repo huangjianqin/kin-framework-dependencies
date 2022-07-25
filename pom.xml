@@ -39,6 +39,7 @@
         <jctools.version>3.3.0</jctools.version>
         <commons-lang.version>2.3</commons-lang.version>
         <timeflake4j.version>1.4.0</timeflake4j.version>
+        <RoaringBitmap.version>0.9.30</RoaringBitmap.version>
     </properties>
 
     <dependencyManagement>
@@ -264,6 +265,13 @@
                 <groupId>am.ik.timeflake</groupId>
                 <artifactId>timeflake4j</artifactId>
                 <version>${timeflake4j.version}</version>
+            </dependency>
+
+            <!-- bitmap优化版本, 减少内存消耗 -->
+            <dependency>
+                <groupId>org.roaringbitmap</groupId>
+                <artifactId>RoaringBitmap</artifactId>
+                <version>${RoaringBitmap.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
