@@ -43,7 +43,7 @@
 
     <dependencyManagement>
         <dependencies>
-            <!-- scala集合工具包 -->
+            <!-- 高性能集合工具包, 各种基础类型的集合实现 -->
             <dependency>
                 <groupId>it.unimi.dsi</groupId>
                 <artifactId>fastutil</artifactId>
