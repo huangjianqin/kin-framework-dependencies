@@ -273,7 +273,6 @@
                 <groupId>org.instancio</groupId>
                 <artifactId>instancio-junit</artifactId>
                 <version>${instancio.version}</version>
-                <scope>test</scope>
             </dependency>
 
             <!-- 高性能JVM缓存框架, API风格兼容guava cache -->
