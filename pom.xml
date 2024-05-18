@@ -41,6 +41,7 @@
         <RoaringBitmap.version>0.9.30</RoaringBitmap.version>
         <instancio.version>2.3.0</instancio.version>
         <caffeine.version>3.1.2</caffeine.version>
+        <commons-collections.version>3.2.2</commons-collections.version>
     </properties>
 
     <dependencyManagement>
@@ -252,6 +253,12 @@
                 <groupId>commons-lang</groupId>
                 <artifactId>commons-lang</artifactId>
                 <version>${commons-lang.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>commons-collections</groupId>
+                <artifactId>commons-collections</artifactId>
+                <version>${commons-collections.version}</version>
             </dependency>
 
             <!-- Timeflake is a 128-bit, roughly-ordered, URL-safe UUID. Inspired by Twitter's Snowflake, Instagram's ID and Firebase's PushID. -->
